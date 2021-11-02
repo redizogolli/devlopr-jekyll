@@ -2,7 +2,7 @@
 layout: post
 title:  "Added Multi Author Support"
 summary: "Multi Author Support allows to create articles with different Authors"
-author: xplor4r
+author: redizogolli
 date: '2020-10-25 1:35:23 +0530'
 category: jekyll
 thumbnail: /assets/img/posts/code.jpg
@@ -15,44 +15,44 @@ permalink: /blog/added-multi-author-support/
 
 You can now create or collaborate with multiple authors,Especially when you are working with teams. Each author will have a unique page of her written articles also her profile widget in Articles written by his/her.
 
-For this every Author needs to have a unique username (without space) For eg. If Author is John Doe - the username should be **johndoe** or **john-doe** (without space).This key will be used by devlopr, to fetch individual author's profile pages internally.
+For this every Author needs to have a unique username (without space) For eg. If Author is John Doe - the username should be **redizogolli** or **john-doe** (without space).This key will be used by devlopr, to fetch individual author's profile pages internally.
 
 ### Configuring Authors :
 
-Under _authors folder create a author details file (username.md) with his/her username (as described above). For eg. **johndoe.md**.
+Under _authors folder create a author details file (username.md) with his/her username (as described above). For eg. **redizogolli.md**.
 
-Then add this frontmatter to describe the author in **johndoe.md**.
+Then add this frontmatter to describe the author in **redizogolli.md**.
 ```yml
 ---
 name: John Doe # Name of the Author
-username: johndoe # Username of the Author
+username: redizogolli # Username of the Author
 bio: "Hi I a John, a Web Developer and Designer." # Author Bio
-site: http://johndoe.com  # Author Website URL
-avatar: johndoe.png  # Profile Image (img path will be /assets/img/authors/johndoe.png)
-email: mail@johndoe.com  # Author Email address
+site: http://redizogolli.com  # Author Website URL
+avatar: redizogolli.png  # Profile Image (img path will be /assets/img/authors/redizogolli.png)
+email: mail@redizogolli.com  # Author Email address
 social:  # Author Social profile links
     - title: "github"
-      url: "https://github.com/johndoe"
+      url: "https://github.com/redizogolli"
     - title: "linkedin"
-      url: "https://www.linkedin.com/in/johndoe"
+      url: "https://www.linkedin.com/in/redizogolli"
     - title: "youtube"
       url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
     - title: "facebook"
-      url: "https://www.facebook.com/johndoe"
+      url: "https://www.facebook.com/redizogolli"
     - title: "twitter"
-      url: "https://www.twitter.com/johndoe"
+      url: "https://www.twitter.com/redizogolli"
     - title: "behance"
-      url: "https://behance.com/johndoe"
+      url: "https://behance.com/redizogolli"
     - title: "instagram"
-      url: "https://instagram.com/johndoe"
+      url: "https://instagram.com/redizogolli"
     - title: "medium"
-      url: "https://medium.com/johndoe"
+      url: "https://medium.com/redizogolli"
     - title: "telegram"
-      url: "https://telegram.com/johndoe"
+      url: "https://telegram.com/redizogolli"
     - title: "dribbble"
-      url: "https://dribbble.com/johndoe"
+      url: "https://dribbble.com/redizogolli"
     - title: "flickr"
-      url: "https://flickr.com/johndoe"
+      url: "https://flickr.com/redizogolli"
 ---
 ```
 You can create multiple authors similarly under _authors
@@ -61,36 +61,36 @@ Next, copy the same frontmatter in _data/authors.yml (under individual author us
 
 ```yml
 # Author 1
-johndoe:
+redizogolli:
    name: John Doe
-   username: johndoe
-   site: http://johndoe.com
-   avatar: johndoe.png
+   username: redizogolli
+   site: http://redizogolli.com
+   avatar: redizogolli.png
    bio: "Hi I a John, a Web Developer and Designer."
-   email: mail@johndoe.com
+   email: mail@redizogolli.com
    social:
       - title: "github"
-        url: "https://github.com/johndoe"
+        url: "https://github.com/redizogolli"
       - title: "linkedin"
-        url: "https://www.linkedin.com/in/johndoe"
+        url: "https://www.linkedin.com/in/redizogolli"
       - title: "youtube"
         url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
       - title: "facebook"
-        url: "https://www.facebook.com/johndoe"
+        url: "https://www.facebook.com/redizogolli"
       - title: "twitter"
-        url: "https://www.twitter.com/johndoe"
+        url: "https://www.twitter.com/redizogolli"
       - title: "behance"
-        url: "https://behance.com/johndoe"
+        url: "https://behance.com/redizogolli"
       - title: "instagram"
-        url: "https://instagram.com/johndoe"
+        url: "https://instagram.com/redizogolli"
       - title: "medium"
-        url: "https://medium.com/johndoe"
+        url: "https://medium.com/redizogolli"
       - title: "telegram"
-        url: "https://telegram.com/johndoe"
+        url: "https://telegram.com/redizogolli"
       - title: "dribbble"
-        url: "https://dribbble.com/johndoe"
+        url: "https://dribbble.com/redizogolli"
       - title: "flickr"
-        url: "https://flickr.com/johndoe"
+        url: "https://flickr.com/redizogolli"
 
 # Author 2
 janedoe:
