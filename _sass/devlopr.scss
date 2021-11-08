@@ -1283,10 +1283,17 @@ footer {
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
 
-.dbSkills,.frontSkills {
+.frontSkills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0 px;
+    grid-row-gap: 0 px;
+}
+
+.dbSkills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0 px;
     grid-row-gap: 0 px;
 }
