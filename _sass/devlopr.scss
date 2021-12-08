@@ -419,7 +419,7 @@ header {
     font-weight: 300;
     text-align: center;
     border: 0px;
-    border-bottom: 1px dashed #ffa000;
+    border-bottom: 1px dashed #ff014f;
     margin: 0px auto;
     margin-top: -51px;
     padding-left: 30px;
@@ -428,7 +428,7 @@ header {
 
     &:focus {
       border: 0;
-      border-bottom: 1px dashed #ffa000;
+      border-bottom: 1px dashed #ff014f;
     }
   }
 
@@ -1506,4 +1506,9 @@ footer {
   transform: translateY(-5px);
   background: linear-gradient(to right bottom, #212428, #16181c);
   border: none;
+}
+
+.sidebar-text{
+  font-size: 20px;
+  color: #ffffff;
 }
